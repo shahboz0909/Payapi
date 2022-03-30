@@ -1,0 +1,266 @@
+.pricing__heading {
+  margin: 0;
+  padding: 0;
+  margin-top: 87px;
+  margin-bottom: 72px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.430769px;
+  color: #36536B;
+}
+
+.pricing__list {
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246154px;
+  color: #BA4270;
+}
+.pricing__item {
+  max-width: 350px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #a7c7e0;
+}
+
+.pricing__text {
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+}
+
+.pricing__span {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.430769px;
+  color: #36536B;
+}
+
+.pricing__select-list {
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing__select-item {
+  width: 350px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  border-bottom: 1px solid #a7c7e0;
+}
+
+
+.pricing__select-text {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #36536B;
+
+}
+
+.pricing__select-text::before {
+  width: 20px;
+  height: 12px;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -24px;
+  background-image: url("../../img/select-icon.svg");
+  background-repeat: no-repeat;
+  
+}
+
+.no-select {
+  opacity: 0.7;
+}
+
+.no-select::before {
+  display: none;
+}
+
+.pricing__button-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 24px;
+  margin-bottom: 46px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.button-list__item {
+  width: 350px;
+}
+
+.button-list__button {
+  width: 168px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536B;
+  border: 1px solid #36536B;
+  border-radius: 24px;
+}
+
+@include breakpoint-down (750px) {
+  .pricing__list {
+    gap: 10px;
+    text-align: center;
+  }
+  .pricing__heading {
+  text-align: center;
+  }
+  .pricing__item {
+    max-width: 223px;
+  }
+  .pricing__span {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  .pricing__select-list {
+    gap: 10px;
+  }
+
+  .pricing__select-item {
+    width: 223px;
+    padding-left: 63px;
+  }
+
+  .button-list__item {
+    width: 223px;
+    text-align: center;
+  }
+  
+}
+
+@include breakpoint-down (670px) {
+  .pricing__heading {
+    font-size: 40px;
+    line-height: 40px;
+    }
+    .list__heading {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    .pricing__text {
+      font-size: 10px;
+      line-height: 22px;
+    }
+
+    .pricing__span {
+      font-size: 42px;
+      line-height: 56px;
+    }
+
+    .pricing__item {
+      max-width: 180px;
+    }
+    .pricing__select-item {
+      width: 180px;
+      padding-left: 50px;
+    }
+    .button-list__item {
+      width: 180px;
+    }
+}
+
+@include breakpoint-down(570px) {
+  .pricing__list {
+    flex-direction: column;
+  }
+  .pricing__item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pricing__select-list {
+    flex-direction: column;
+  }
+  .pricing__select-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pricing__button-list {
+    flex-direction: column;
+  }
+  .button-list__item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pricing__heading {
+    font-size: 56px;
+    line-height: 56px;
+    }
+    .list__heading {
+      font-size: 36px;
+      line-height: 38px;
+    }
+    .pricing__item {
+      max-width: 300px;
+    }
+
+    .pricing__select-item {
+      max-width: 400px;
+    }
+    .button-list__item {
+      margin-top: 50px;
+    }
+
+}
+@include breakpoint-down(340px) {
+    .pricing__heading {
+      margin-top: 48px;
+      font-size: 32px;
+      line-height: 36px;
+    }
+    .pricing__text {
+      display: none;
+    }
+    .list__heading {
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 25px;
+      margin-bottom: 50px;
+    }
+    .pricing__span {
+      margin-top: 81px;
+      font-size: 56px;
+      line-height: 72px;
+    }
+}
+
