@@ -403,7 +403,7 @@ img {
 /*=============== GENERAL ============*/
 body {
   background-color: #EDF3F8;
-  background-image: url("../../img/body-back.png");
+  background-image: url("../img/body-back.png");
   background-repeat: no-repeat;
   background-position-x: calc(50% + 500px);
   background-position-y: -180px;
@@ -880,7 +880,7 @@ body {
 
 .about-us {
   background-color: #1b262f;
-  background-image: url("../../img/body-back.png");
+  background-image: url("../img/body-back.png");
   background-repeat: no-repeat;
   background-size: 780px 780px;
   background-position-x: calc(50% - 570px);
@@ -1286,7 +1286,7 @@ body {
 }
 
 .simple {
-  background-image: url("../../img/body-back.png");
+  background-image: url("../img/body-back.png");
   background-repeat: no-repeat;
   background-size: 780px 780px;
   background-position-x: calc(50% + 700px);
@@ -1673,7 +1673,7 @@ body {
   padding-top: 35px;
   padding-bottom: 35px;
   background-color: #1B262F;
-  background-image: url("../../img/body-back.png");
+  background-image: url("../img/body-back.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position-x: calc(50% + 1050px);
@@ -1872,7 +1872,7 @@ body {
   position: absolute;
   top: 9px;
   left: -24px;
-  background-image: url("../../img/select-icon.svg");
+  background-image: url("../img/select-icon.svg");
   background-repeat: no-repeat;
 }
 
@@ -2046,7 +2046,7 @@ body {
 .picture {
   margin-top: 85px;
   padding: 250px 0px;
-  background-image: url("../../img/Bitmap.png");
+  background-image: url("../img/Bitmap.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
